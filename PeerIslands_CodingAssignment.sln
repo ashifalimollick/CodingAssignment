@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeerIslands_CodingAssignment", "PeerIslands_CodingAssignment\PeerIslands_CodingAssignment.csproj", "{56B320F4-B526-4513-B27B-902684188F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{B70DE1C2-FF24-42D2-B5A1-0004DCEC5A56}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56B320F4-B526-4513-B27B-902684188F7A} = {56B320F4-B526-4513-B27B-902684188F7A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B320F4-B526-4513-B27B-902684188F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B320F4-B526-4513-B27B-902684188F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B320F4-B526-4513-B27B-902684188F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B320F4-B526-4513-B27B-902684188F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70DE1C2-FF24-42D2-B5A1-0004DCEC5A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70DE1C2-FF24-42D2-B5A1-0004DCEC5A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70DE1C2-FF24-42D2-B5A1-0004DCEC5A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70DE1C2-FF24-42D2-B5A1-0004DCEC5A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DABCA9EC-6639-483F-A929-0F42284C7492}
+	EndGlobalSection
+EndGlobal
